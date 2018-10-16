@@ -1,0 +1,49 @@
+.container {
+	padding: 10px;
+}
+
+html {
+	font-family:Verdana;
+	font-size:0.85em;
+}
+
+.container-box {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #ccc;
+	border-radius: 12px;
+	display: flex;
+	padding: 16px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.layer {
+	display: inline-flex;
+}
+
+.al-center {
+	text-align: center;
+	margin: auto;
+}
+
+.item {
+	margin: 5px;
+}
+
+.border {
+	border: 2px dashed #444;
+}
+
+.grid {
+	display: grid;
+}
+
+
+
